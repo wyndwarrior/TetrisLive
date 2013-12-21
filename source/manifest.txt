@@ -1,0 +1,2 @@
+Main-Class: wynd.tetris.Tetris
+Class-Path: lib/lwjgl.jar lib/lwjgl_util.jar
