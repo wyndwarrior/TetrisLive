@@ -8,7 +8,7 @@ Features
 - Battle with up to 9 friends.
 - Tetris AI guide (depth-first search simulation algorithm)
 
-General Use
+Installation
 -----------
 Build on Mac OS X. Scripts can be adapted for Windows. LWJGL libraries not included for linux.
 
@@ -27,3 +27,5 @@ Arrow keys - to move pieces
 Shift - hold piece
 
 Space - to drop
+
+R - to toggle AI guide

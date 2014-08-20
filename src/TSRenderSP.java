@@ -57,7 +57,7 @@ public class TSRenderSP implements TSRenderable{
         KMATCH[KEY_RSHIFT] = TSTetris.KHOLD;
         KMATCH[KEY_S] = TSTetris.KSAVE;
         KMATCH[KEY_L] = TSTetris.KLOAD;
-        
+        KMATCH[KEY_R] = TSTetris.KROBOT;
     }
     
     public void update(int delta){

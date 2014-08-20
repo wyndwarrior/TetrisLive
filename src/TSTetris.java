@@ -7,7 +7,7 @@ public class TSTetris implements Serializable{
 	private static final long serialVersionUID = 7526472295622776147L;
 	
 	private static final boolean AUTOROBOT = false;
-	private static final boolean SHOWGUIDE = false;
+	private static boolean SHOWGUIDE = false;
     
     private TSBoard<TSBlock> board;
     private TSPiece piece;
@@ -70,7 +70,7 @@ public class TSTetris implements Serializable{
     
     private void updateRobot(){
         nextMove = new TSPiece[1];
-        //new TSRobotThread(robot, nextMove, que, piece, board).start();
+        new TSRobotThread(robot, nextMove, que, piece, board).start();
         //System.out.println(robot.canyons(board));
         //System.out.println(robot.getStDv(board));
     }
@@ -226,6 +226,7 @@ public class TSTetris implements Serializable{
     public static final int KHOLD = 7;
     public static final int KSAVE = 8;
     public static final int KLOAD = 9;
+    public static final int KROBOT = 10;
     
     private static final int KSTART = 110; //inital delay
     private static final int KDELAY = 10; //subsequent delay
@@ -255,6 +256,8 @@ public class TSTetris implements Serializable{
             didDrop();
         }else if( key == KHOLD )
             hold();
+        else if( key == KROBOT)
+            SHOWGUIDE ^= true;
         
     }
     
