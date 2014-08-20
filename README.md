@@ -1,17 +1,22 @@
 TetrisLive
 =============
+![Tetris](img/preview.png)
 
-Live multiplayer Tetris in Java OpenGL. 
+Features
+---------
+- Live multiplayer Tetris in Java and OpenGL
+- Battle with up to 9 friends.
+- Tetris AI guide (depth-first search simulation algorithm)
 
 General Use
 -----------
-Built on Mac OS X. Scripts can be adapted for Windows.
+Build on Mac OS X. Scripts can be adapted for Windows. LWJGL libraries not included for linux.
 
-Run ```build.sh``` to build
+Run ```./build.sh``` to build
 
-Use ```run.sh``` to run
+Use ```./run.sh``` to run
 
-Use ```server.sh``` to host the multiplayer server
+Use ```./server.sh``` to host the multiplayer server
 
 
 Gameplay
