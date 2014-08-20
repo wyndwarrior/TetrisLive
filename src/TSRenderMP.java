@@ -73,7 +73,7 @@ public class TSRenderMP implements TSRenderable{
         KMATCH[KEY_SPACE] = TSTetris.KDROP;
         KMATCH[KEY_LSHIFT] = TSTetris.KHOLD;
         KMATCH[KEY_RSHIFT] = TSTetris.KHOLD;
-        
+        KMATCH[KEY_R] = TSTetris.KROBOT;
     }
 
 	public void pressedKey(int k) {
