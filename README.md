@@ -29,3 +29,9 @@ Shift - hold piece
 Space - to drop
 
 R - to toggle AI guide
+
+License
+--------
+
+Copyright 2014 Yu Xuan Liu. All rights reserved. Content licensed under the [GNU General Public License v3.0](LICENSE)
+
