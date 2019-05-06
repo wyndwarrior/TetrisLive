@@ -5,13 +5,13 @@ public class TSPiecePurple extends TSPiece{
     
 	private static final long serialVersionUID = 7526472295622776147L;
     
-    private static final TSBlock _ = null;
+    private static final TSBlock N = null;
     private static final TSBlock B = new TSBlock(Color.MAGENTA);
     private static final TSBlock[][] M = {
     
-    {_,B,_},
+    {N,B,N},
     {B,B,B},
-    {_,_,_}
+    {N,N,N}
     
     };
     
